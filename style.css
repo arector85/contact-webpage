@@ -5,8 +5,6 @@ main, footer, ul, ol, li {
     background-color: white;
     text-align: center;
     border-color: green;
-    margin-left: 30px;
-    margin-right: 30px;
   }
 
   footer {
