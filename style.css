@@ -4,13 +4,15 @@ main, footer, ul, ol, li {
     color: whitesmoke;
     background-color: black;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   hr {
     color: white;
   }
 
-  body.header.nav.ul {
+  ul {
     text-align: center;
   }
 
