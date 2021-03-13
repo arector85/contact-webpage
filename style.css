@@ -4,24 +4,29 @@ main, footer, ul, ol, li {
     color: black;
     background-color: white;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    border-color: green;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
-a:visited {
-    color: purple;
-}
+  footer {
+    margin-bottom: 30px;
+  }
 
-a:link {
+  a:link {
     color: green;
-}
+  }
 
-a:hover {
+  a:visited {
+    color: purple;
+  }
+
+  a:hover {
     color: blue;
-}
+  }
 
   hr {
-    color: black;
+    color: green;
   }
 
   ul {
@@ -30,10 +35,6 @@ a:hover {
 
   ul {
     padding: 50px;
-  }
-
-body {
-    border: green;
   }
 
   header {
@@ -53,5 +54,5 @@ body {
     background-color: white;
     height: 500px;
     width: 350px;
-    margin: 0px 100px 50px 100px;
+    margin: 10px 100px 50px 100px;
   }
