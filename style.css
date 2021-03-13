@@ -1,15 +1,27 @@
 main, footer, ul, ol, li {
     font-size: 15px;
     font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    background-color: white;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
+a:visited {
+    color: purple;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
   hr {
-    color: white;
+    color: black;
   }
 
   ul {
@@ -20,21 +32,25 @@ main, footer, ul, ol, li {
     padding: 50px;
   }
 
+body {
+    border: green;
+  }
+
   header {
     text-align: center;
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 10px
   }
 
   nav {
     text-align: center;
     padding-bottom: 50px;
-    color: white;
+    color: black;
   }
 
   body header div img {
-    background-color: black;
+    background-color: white;
     height: 500px;
     width: 350px;
     margin: 0px 100px 50px 100px;
